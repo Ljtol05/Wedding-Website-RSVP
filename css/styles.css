@@ -121,6 +121,11 @@ p {
   color: #ffffff;
 }
 
+.timeline a {
+  text-decoration: none;
+  color: #ffd700; /* Example color: Gold */
+}
+
 .timeline li strong {
   color: #ffd700; /* Gold color for time */
 }
@@ -214,4 +219,74 @@ input, select, button {
   margin-top: 20px;
   text-align: center;
   font-size: 18px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and larger screens */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+  }
+
+  .carousel-image {
+    height: 300px;
+  }
+
+  .countdown-number {
+    font-size: 1.5rem;
+  }
+
+  .rsvp-reminder {
+    font-size: 2rem;
+  }
+
+  .rsvp-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .carousel-image {
+    height: 200px;
+  }
+
+  .countdown-number {
+    font-size: 1.2rem;
+  }
+
+  .rsvp-reminder {
+    font-size: 1.5rem;
+  }
+
+  .rsvp-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
 }
