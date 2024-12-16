@@ -258,7 +258,8 @@ input, select, button {
 /* For mobile phones */
 @media (max-width: 480px) {
   .hero {
-    height: 70vh;
+    background: url('../images/wedding.jpeg') center/cover no-repeat;
+    height: 70vh; /* Adjust the height for better fit on mobile */
   }
 
   .hero h1 {
