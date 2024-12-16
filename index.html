@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>You're Invited!</h1>
+      <hr class="decorative-hr">
+      <h2 class="lead">💍 <span>We can't wait to</span> <strong>celebrate this special
+          day</strong> with you! 💍</h2>
+      <hr class="decorative-hr">
+    </div>
+  </section>
+
+  <!-- Countdown Section -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4">Countdown to the Big Day</h2>
+    <div class="countdown-timer d-flex justify-content-center">
+      <div class="countdown-item mx-2 text-center">
+        <span id="days" class="countdown-number">00</span>
+        <p>Days</p>
+      </div>
+      <div class="countdown-item mx-2 text-center">
+        <span id="hours" class="countdown-number">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="countdown-item mx-2 text-center">
+        <span id="minutes" class="countdown-number">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="countdown-item mx-2 text-center">
+        <span id="seconds" class="countdown-number">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="rsvp-reminder">Don't forget to RSVP at the bottom</h2>
+
+
+  <!-- Carousel Section -->
+  <section class="container py-5">
+    <div id="weddingCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2650">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/photo1.jpeg" class="d-block w-100 carousel-image" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/photo2.jpeg" class="d-block w-100 carousel-image" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/photo3.jpeg" class="d-block w-100 carousel-image" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/photo4.jpeg" class="d-block w-100 carousel-image" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/photo5.jpeg" class="d-block w-100 carousel-image" alt="Fifth slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/photo6.jpeg" class="d-block w-100 carousel-image" alt="Sixth slide">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#weddingCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#weddingCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <h2>Our Story</h2>
+        <p>
+          It all began when I (<em>the groom</em>) returned to Nashville after a challenging stint making sushi at a
+          military base in Memphis. Ready for a fresh start, I joined Hinge, where I came across <mark>Katie’s
+            profile</mark>. From the moment I saw her, I knew I had to meet her.
+        </p>
+        <p>
+          Katie was a busy college student at Belmont, so we spent some time talking over the phone before we finally
+          met in person. That first meeting happened in the parking lot of her campus, where we sat in my car, talked,
+          and she showed me around her school. It was a short meetup, but I couldn’t stop staring at her, captivated by
+          her beauty and charm.
+        </p>
+        <p>
+          Our first official date followed about a week later. I picked Katie up, and we spent the day at a park in
+          Antioch, talking and getting to know each other. It was during that date that I realized I wanted to be with
+          her. From the park, we grabbed some Mexican food—a shared favorite—and ended the night with ice cream from La
+          Michoacana, a local shop we both love. In true comedic fashion, we accidentally spilled ice cream on the car
+          seat (<em>a rental!</em>) and had to make a quick stop at the store for a towel to clean it up.
+        </p>
+        <p>
+          Fast forward to today, we’ve shared over a year of amazing memories together. One of our favorites is visiting
+          a waterfall with Katie’s parents, where we ended up soaked but happy from the adventure. We’ve bonded over our
+          love of good food (<mark>Mexican, Indian, and coffee shops</mark> are our go-to’s), our mutual faith as
+          Christians, and our shared values of understanding and respect. I’m now a <strong>new minister in the
+            church</strong>, and Katie has been my greatest supporter.
+        </p>
+        <p>
+          We’re simple people at heart, sharing a love for food, our orange tabby cats, and dreams of building a
+          meaningful future together. Starting young, we’re excited to grow old side by side, creating lasting memories
+          and cherishing every step of this beautiful journey.
+        </p>
+        <div class="social-links">
+          <a href="#" class="text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook</a>
+          <a href="#" class="text-decoration-none me-3"><i class="bi bi-instagram"></i> Instagram</a>
+          <a href="#" class="text-decoration-none"><i class="bi bi-twitter"></i> Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Itinerary Section -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4">Wedding Itinerary</h2>
+    <ul class="timeline">
+      <li><strong>1:30 - 2:30 PM:</strong> Guests begin arrival at <mark>2515 Dickerson Pike</mark> and will be seated
+        accordingly</li>
+      <li><strong>2:00 - 2:30 PM:</strong> Ceremony Starts</li>
+      <li><strong>2:00 PM:</strong> Guests are seated + Groom & Officiant Take Their Place + Bride Makes Her Way Down
+        The Aisle</li>
+      <li><strong>2:10 PM:</strong> Opening Prayer/Welcome</li>
+      <li><strong>2:15 PM:</strong> Exchange of Vows + Rings</li>
+      <li><strong>2:20 PM:</strong> Candle Lighting And Prayer</li>
+      <li><strong>2:25 PM:</strong> Pronouncement of Marriage</li>
+      <li><strong>2:30 PM:</strong> Recessional</li>
+      <li><strong>2:30 - 3:30 PM:</strong> Fellowship + Photos + Food</li>
+      <li><strong>3:30 - 3:45 PM:</strong> Cake Cutting</li>
+      <li><strong>3:45 - 4:00 PM:</strong> First Dance</li>
+      <li><strong>4:00 PM:</strong> Closing Prayer</li>
+      <li><strong>4:15 - 4:30 PM:</strong> Group Photos</li>
+      <li><strong>4:30 PM:</strong> Departure</li>
+    </ul>
+  </section>
+
+  <!-- RSVP Section -->
+  <section class="container py-5" id="rsvp">
+    <h2>RSVP</h2>
+    <form id="rsvpForm"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSftApLOwzJAt3YiNlVYS4C_dFPEU95lknwJta4xU9KSVME4xg/formResponse"
+      method="POST" target="_self">
+      <div class="mb-3">
+        <!--Name Input-->
+        <label for="name" class="form-label">Name *</label>
+        <input type="text" class="form-control" name="entry.68085788" id="name" placeholder="Your Full Name" required>
+      </div>
+      <div class="mb-3">
+        <!--Email Input-->
+        <label for="email" class="form-label">Email *</label>
+        <input type="email" class="form-control" name="entry.578351780" id="email" placeholder="Your Email Address">
+      </div>
+      <div class="mb-3">
+        <!--Guests Input-->
+        <label for="guests" class="form-label">Number Of Guests *</label>
+        <input type="number" class="form-control" name="entry.528832465" id="guests" min="1" max="5"
+          placeholder="How many Will Join?" required>
+      </div>
+      <!-- Preferences Input -->
+      <div class="mb-3">
+        <label for="dietary" class="form-label">Dietary Preferences</label>
+        <select id="dietary" name="entry.2075141274" class="form-select">
+          <option value="" disabled selected>Select one</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Vegan">Vegan</option>
+          <option value="Kosher">Kosher</option>
+          <option value="Halal">Halal</option>
+          <option value="Gluten-free">Gluten-free</option>
+          <option value="None">None</option>
+        </select>
+      </div>
+      <button type="submit" class="rsvp-button btn-primary">Submit RSVP</button>
+    </form>
+
+    <!-- Loader -->
+    <div id="loader">Submitting your response...</div>
+
+    <!-- Success Confirmation Message -->
+    <div id="confirmationMessage">
+      🎉 Thank you! Your RSVP has been submitted successfully. We can’t wait to celebrate with you!
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Thank you for celebrating with us! Hope You Enjoy!</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../java/scripts.js"></script>
+</body>
+
+</html>

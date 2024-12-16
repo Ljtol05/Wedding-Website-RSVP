@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  background-color: #8B4513;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: larger;
+  line-height: 1.3rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem; /* Slightly larger font size for readability */
+  font-family: 'Playfair Display', serif; /* Elegant serif font */
+  color: #ffffff; /* White text color for contrast */
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
+  padding: 15px; /* Padding for breathing room */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  line-height: 1.5; /* Improved line height for readability */
+}
+
+.hero {
+  background: url('../images/wedding.jpeg') center/cover no-repeat fixed;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 6rem;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.hero .lead span {
+
+  font-style: italic;
+
+}
+
+.decorative-hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  margin: 1.5rem 0;
+  width : 80%;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+}
+
+.carousel-image {
+  height: 400px; /* Set a consistent height for all images */
+  object-fit: contain; /* Ensure the image covers the entire area without distortion */
+  object-position: top;
+  width: 100%; 
+  background-color: #4B2E1A; /* Center the image within the container */
+  border: 8px solid transparent; /* Transparent border for gradient effect */
+  border-image: linear-gradient(to right, #d2691e, #8b4513); /* Gradient border */
+  border-image-slice: 1; /* Ensure the gradient covers the entire border */
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  padding: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%; /* Round shape */
+  padding: 10px; /* Add padding for better visibility */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+.social-links a {
+  color: #000;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+/* Timeline Styles */
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  margin-bottom: 1rem;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+}
+
+.timeline li strong {
+  color: #ffd700; /* Gold color for time */
+}
+
+.timeline li mark {
+  background-color: #ffd700; /* Gold background for highlighted text */
+  color: #8B4513; /* Dark brown text color */
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-item {
+  margin: 0 10px;
+}
+
+.countdown-number {
+  font-size: 2rem; /* Smaller font size */
+  font-weight: bold;
+  color: #ffd700; /* Gold color */
+}
+
+.countdown-item p {
+  margin: 0;
+  font-size: 1rem; /* Smaller font size */
+  color: #ffffff;
+}
+
+/* RSVP Reminder Styling */
+.rsvp-reminder {
+  font-family: 'Great Vibes', cursive; /* Match the wedding theme font */
+  font-size: 2.5rem; /* Adjust the font size */
+  color: #ffd700; /* Gold color for emphasis */
+  text-align: center; /* Center the text */
+  margin: 2rem 0; /* Add vertical spacing */
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
+  padding: 10px; /* Padding for breathing room */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* RSVP Button Styling */
+.rsvp-button {
+  font-family: 'Playfair Display', serif; /* Match the wedding theme font */
+  font-size: 1.2rem; /* Adjust the font size */
+  background-color: #ffd700; /* Gold background color */
+  color: #8B4513; /* Dark brown text color */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for better spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.rsvp-button:hover {
+  background-color: #e6b800; /* Darker gold on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Loader */
+#loader {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #5cb85c;
+}
+
+/* Confirmation Message */
+#confirmationMessage {
+  display: none;
+  color: green;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
