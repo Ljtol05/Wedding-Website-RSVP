@@ -20,6 +20,7 @@ p {
   line-height: 1.5; /* Improved line height for readability */
 }
 
+
 .hero {
   background: url('../images/wedding.jpeg') center/cover no-repeat fixed;
   height: 100vh;
@@ -48,6 +49,17 @@ p {
 
   font-style: italic;
 
+}
+
+h2 {
+  font-family: 'Playfair Display', serif; /* Example font family */
+  font-size: 2rem; /* Example font size */
+  color: #ffffff; /* Example text color */
+  text-align: center; /* Center align the text */
+  margin-top: 1rem; /* Example top margin */
+  margin-bottom: 1rem; /* Example bottom margin */
+  padding: 10px; /* Padding for breathing room */
+  border-radius: 10px; /* Rounded corners */
 }
 
 .decorative-hr {
@@ -258,7 +270,7 @@ input, select, button {
 /* For mobile phones */
 @media (max-width: 480px) {
   .hero {
-    background: url('../images/wedding.jpeg') center/cover no-repeat;
+    background: url('../images/wedding.jpeg') center/contain no-repeat;
     height: 70vh; /* Adjust the height for better fit on mobile */
   }
 
