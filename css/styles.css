@@ -270,7 +270,7 @@ input, select, button {
 /* For mobile phones */
 @media (max-width: 480px) {
   .hero {
-    background: url('../images/wedding.jpeg') center/contain no-repeat fixed;
+    background: url('../images/wedding.jpeg') center/contain no-repeat;
     height: 70vh; /* Adjust the height for better fit on mobile */
   }
 
