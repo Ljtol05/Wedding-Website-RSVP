@@ -36,6 +36,29 @@ document.getElementById("rsvpForm").addEventListener("submit", function (e) {
   });
 });
 
+// Smooth Scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+// Preserve Scroll Position on Reload
+window.addEventListener('beforeunload', function () {
+  sessionStorage.setItem('scrollPosition', window.scrollY);
+});
+
+window.addEventListener('load', function () {
+  if (sessionStorage.getItem('scrollPosition') !== null) {
+    window.scrollTo(0, parseInt(sessionStorage.getItem('scrollPosition')));
+    sessionStorage.removeItem('scrollPosition');
+  }
+});
+
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 18, 2025 13:30:00").getTime();
 
