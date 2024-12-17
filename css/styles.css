@@ -10,16 +10,40 @@ body {
 
 p {
   margin-bottom: 1rem;
-  font-size: 1.2rem; /* Slightly larger font size for readability */
-  font-family: 'Playfair Display', serif; /* Elegant serif font */
-  color: #ffffff; /* White text color for contrast */
-  background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
-  padding: 15px; /* Padding for breathing room */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  line-height: 1.5; /* Improved line height for readability */
+  font-size: 1.2rem;
+  /* Slightly larger font size for readability */
+  font-family: 'Playfair Display', serif;
+  /* Elegant serif font */
+  color: #ffffff;
+  /* White text color for contrast */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Subtle background color */
+  padding: 15px;
+  /* Padding for breathing room */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  line-height: 1.5;
+  /* Improved line height for readability */
 }
 
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 .hero {
   background: url('https://Ljtol05.github.io/Wedding-Website-RSVP/images/wedding.jpeg') center/cover no-repeat fixed;
@@ -50,14 +74,22 @@ p {
 }
 
 h2 {
-  font-family: 'Playfair Display', serif; /* Example font family */
-  font-size: 2rem; /* Example font size */
-  color: #ffffff; /* Example text color */
-  text-align: center; /* Center align the text */
-  margin-top: 1rem; /* Example top margin */
-  margin-bottom: 1rem; /* Example bottom margin */
-  padding: 10px; /* Padding for breathing room */
-  border-radius: 10px; /* Rounded corners */
+  font-family: 'Playfair Display', serif;
+  /* Example font family */
+  font-size: 2rem;
+  /* Example font size */
+  color: #ffffff;
+  /* Example text color */
+  text-align: center;
+  /* Center align the text */
+  margin-top: 1rem;
+  /* Example top margin */
+  margin-bottom: 1rem;
+  /* Example bottom margin */
+  padding: 10px;
+  /* Padding for breathing room */
+  border-radius: 10px;
+  /* Rounded corners */
 }
 
 .decorative-hr {
@@ -65,7 +97,7 @@ h2 {
   height: 2px;
   background: linear-gradient(to right, transparent, #fff, transparent);
   margin: 1.5rem 0;
-  width : 80%;
+  width: 80%;
 }
 
 .lead {
@@ -75,29 +107,44 @@ h2 {
 }
 
 .carousel-image {
-  height: 400px; /* Set a consistent height for all images */
-  object-fit: contain; /* Ensure the image covers the entire area without distortion */
-  object-position: top;
-  width: 100%; 
-  background-color: #4B2E1A; /* Center the image within the container */
-  border: 8px solid transparent; /* Transparent border for gradient effect */
-  border-image: linear-gradient(to right, #d2691e, #8b4513); /* Gradient border */
-  border-image-slice: 1; /* Ensure the gradient covers the entire border */
-  border-radius: 6px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  height: auto;
+  /* Set a consistent height for all images */
+  max-height: 400px;
+  width: 100%;
+  /* Ensure the image covers the entire area */
+  object-fit: contain;
+  /* Ensure the image covers the entire area without distortion */
+  object-position: center;
+  /* Center the image within the container */
+  background-color: #4B2E1A;
+  /* Center the image within the container */
+  border: 8px solid transparent;
+  /* Transparent border for gradient effect */
+  border-image: linear-gradient(to right, #d2691e, #8b4513);
+  /* Gradient border */
+  border-image-slice: 1;
+  /* Ensure the gradient covers the entire border */
+  border-radius: 6px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a shadow effect */
   padding: 10px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  border-radius: 50%; /* Round shape */
-  padding: 10px; /* Add padding for better visibility */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  border-radius: 50%;
+  /* Round shape */
+  padding: 10px;
+  /* Add padding for better visibility */
 }
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Darker background on hover */
 }
 
 .social-links a {
@@ -133,16 +180,20 @@ h2 {
 
 .timeline a {
   text-decoration: none;
-  color: #ffd700; /* Example color: Gold */
+  color: #ffd700;
+  /* Example color: Gold */
 }
 
 .timeline li strong {
-  color: #ffd700; /* Gold color for time */
+  color: #ffd700;
+  /* Gold color for time */
 }
 
 .timeline li mark {
-  background-color: #ffd700; /* Gold background for highlighted text */
-  color: #8B4513; /* Dark brown text color */
+  background-color: #ffd700;
+  /* Gold background for highlighted text */
+  color: #8B4513;
+  /* Dark brown text color */
 }
 
 .countdown-timer {
@@ -156,61 +207,187 @@ h2 {
 }
 
 .countdown-number {
-  font-size: 2rem; /* Smaller font size */
+  font-size: 2rem;
+  /* Smaller font size */
   font-weight: bold;
-  color: #ffd700; /* Gold color */
+  color: #ffd700;
+  /* Gold color */
 }
 
 .countdown-item p {
   margin: 0;
-  font-size: 1rem; /* Smaller font size */
+  font-size: 1rem;
+  /* Smaller font size */
   color: #ffffff;
 }
 
 /* RSVP Reminder Styling */
 .rsvp-reminder {
-  font-family: 'Great Vibes', cursive; /* Match the wedding theme font */
-  font-size: 2.5rem; /* Adjust the font size */
-  color: #ffd700; /* Gold color for emphasis */
-  text-align: center; /* Center the text */
-  margin: 2rem 0; /* Add vertical spacing */
-  background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
-  padding: 10px; /* Padding for breathing room */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-label {
-  display: block;
-  margin: 10px 0 5px;
-  font-weight: bold;
-}
-
-input, select, button {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  font-family: 'Great Vibes', cursive;
+  /* Match the wedding theme font */
+  font-size: 2.5rem;
+  /* Adjust the font size */
+  color: #ffd700;
+  /* Gold color for emphasis */
+  text-align: center;
+  /* Center the text */
+  margin: 2rem 0;
+  /* Add vertical spacing */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Subtle background color */
+  padding: 10px;
+  /* Padding for breathing room */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
 }
 
 /* RSVP Button Styling */
 .rsvp-button {
-  font-family: 'Playfair Display', serif; /* Match the wedding theme font */
-  font-size: 1.2rem; /* Adjust the font size */
-  background-color: #ffd700; /* Gold background color */
-  color: #8B4513; /* Dark brown text color */
-  border: none; /* Remove default border */
-  border-radius: 10px; /* Rounded corners */
-  padding: 10px 20px; /* Padding for better spacing */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  font-family: 'Playfair Display', serif;
+  /* Match the wedding theme font */
+  font-size: 1.2rem;
+  /* Adjust the font size */
+  background-color: #ffd700;
+  /* Gold background color */
+  color: #8B4513;
+  /* Dark brown text color */
+  border: none;
+  /* Remove default border */
+  border-radius: 10px;
+  /* Rounded corners */
+  padding: 10px 20px;
+  /* Padding for better spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  transition: background-color 0.3s, transform 0.3s;
+  /* Smooth transition for hover effects */
 }
 
 .rsvp-button:hover {
-  background-color: #e6b800; /* Darker gold on hover */
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #e6b800;
+  /* Darker gold on hover */
+  transform: scale(1.05);
+  /* Slightly enlarge on hover */
+}
+
+/* Custom Navbar Styles */
+.navbar {
+  background-color: #8B4513;
+  /* Match the background color of the page */
+  border-bottom: 2px solid #d2691e;
+  /* Add a border to match the theme */
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  /* Match the wedding theme font */
+  font-size: 2rem;
+  /* Adjust the font size */
+  color: #ffd700;
+  /* Gold color for emphasis */
+}
+
+.navbar-nav {
+  justify-content: center;
+  /* Center the nav items */
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Playfair Display', serif;
+  /* Match the wedding theme font */
+  font-size: 1.2rem;
+  /* Adjust the font size */
+  color: #ffffff;
+  /* White text color for contrast */
+  transition: color 0.3s;
+  /* Smooth transition for hover effects */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700;
+  /* Gold color on hover */
+}
+
+.navbar-toggler {
+  border-color: #ffd700;
+  /* Gold border for the toggler */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 215, 0, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Subtle background color */
+  border: none;
+  /* Remove default border */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  margin-bottom: 1.5rem;
+  /* Add space between cards */
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  /* Match the wedding theme font */
+  color: #ffd700;
+  /* Gold color for emphasis */
+}
+
+.card-body {
+  color: #ffffff;
+  /* White text color for contrast */
+}
+
+/* Enhanced List Item Styles */
+.list-unstyled li {
+  font-family: 'Playfair Display', serif;
+  /* Match the wedding theme font */
+  font-size: 1.2rem;
+  /* Adjust the font size */
+  margin-bottom: 0.5rem;
+  /* Add space between list items */
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Subtle background color */
+  padding: 10px;
+  /* Padding for breathing room */
+  border-radius: 5px;
+  /* Rounded corners */
+  border-left: 5px solid #ffd700;
+  /* Gold left border for emphasis */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  transition: background-color 0.3s, transform 0.3s;
+  /* Smooth transition for hover effects */
+}
+
+.list-unstyled li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Slightly darker background on hover */
+  transform: scale(1.02);
+  /* Slightly enlarge on hover */
+}
+
+.date-heading {
+  font-family: 'Great Vibes', cursive; /* Match the wedding theme font */
+  font-size: 2.5rem; /* Increase the font size */
+  color: #ffd700; /* Gold color for emphasis */
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
+  padding: 10px 20px; /* Padding for breathing room */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #ffd700; /* Gold border for emphasis */
+  display: inline-block; /* Inline block for better alignment */
+  margin-bottom: 1.5rem; /* Adjust bottom margin */
+}
+
+/* Center align the date-heading */
+.date-heading-container {
+  text-align: center; /* Center align the text */
 }
 
 /* Loader */
@@ -231,6 +408,7 @@ input, select, button {
   font-size: 18px;
 }
 
+
 /* Media Queries for Responsive Design */
 
 /* For tablets and larger screens */
@@ -248,7 +426,29 @@ input, select, button {
   }
 
   .carousel-image {
-    height: 300px;
+    height: auto;
+    /* Allow the height to adjust based on the image aspect ratio */
+    max-height: 300px;
+    /* Set a maximum height for the images */
+    width: 100%;
+    /* Ensure the image covers the entire width of the container */
+    object-fit: contain;
+    /* Ensure the image covers the entire area without distortion */
+    object-position: center;
+    /* Center the image within the container */
+    background-color: #4B2E1A;
+    /* Center the image within the container */
+    border: 8px solid transparent;
+    /* Transparent border for gradient effect */
+    border-image: linear-gradient(to right, #d2691e, #8b4513);
+    /* Gradient border */
+    border-image-slice: 1;
+    /* Ensure the gradient covers the entire border */
+    border-radius: 6px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a shadow effect */
+    padding: 10px;
   }
 
   .countdown-number {
@@ -263,13 +463,55 @@ input, select, button {
     font-size: 1rem;
     padding: 8px 16px;
   }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust the font size for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    /* Adjust the font size for smaller screens */
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    /* Adjust the font size for smaller screens */
+  }
+
+  /* Enhanced List Item Styles */
+  .list-unstyled li,
+  .timeline li {
+    font-size: 1rem;
+    /* Adjust the font size for smaller screens */
+    padding: 8px;
+    /* Adjust padding for smaller screens */
+  }
+
+  .date-heading {
+    font-family: 'Great Vibes', cursive; /* Match the wedding theme font */
+    font-size: 2.5rem; /* Increase the font size */
+    color: #ffd700; /* Gold color for emphasis */
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
+    padding: 10px 20px; /* Padding for breathing room */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ffd700; /* Gold border for emphasis */
+    display: inline-block; /* Inline block for better alignment */
+    margin-bottom: 1.5rem; /* Adjust bottom margin */
+  }
+  
+  /* Center align the date-heading */
+  .date-heading-container {
+    text-align: center; /* Center align the text */
+  }
 }
 
 /* For mobile phones */
 @media (max-width: 480px) {
   .hero {
     background: url('https://Ljtol05.github.io/Wedding-Website-RSVP/images/wedding.jpeg') center/cover no-repeat;
-    height: 70vh; /* Adjust the height for better fit on mobile */
+    height: 70vh;
+    /* Adjust the height for better fit on mobile */
     background-attachment: scroll;
   }
 
@@ -286,7 +528,29 @@ input, select, button {
   }
 
   .carousel-image {
-    height: 200px;
+    height: auto;
+    /* Allow the height to adjust based on the image aspect ratio */
+    max-height: 200px;
+    /* Set a maximum height for the images */
+    width: 100%;
+    /* Ensure the image covers the entire width of the container */
+    object-fit: contain;
+    /* Ensure the image covers the entire area without distortion */
+    object-position: center;
+    /* Center the image within the container */
+    background-color: #4B2E1A;
+    /* Center the image within the container */
+    border: 8px solid transparent;
+    /* Transparent border for gradient effect */
+    border-image: linear-gradient(to right, #d2691e, #8b4513);
+    /* Gradient border */
+    border-image-slice: 1;
+    /* Ensure the gradient covers the entire border */
+    border-radius: 6px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a shadow effect */
+    padding: 10px;
   }
 
   .countdown-number {
@@ -300,5 +564,42 @@ input, select, button {
   .rsvp-button {
     font-size: 0.8rem;
     padding: 6px 12px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+    /* Adjust the font size for mobile screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    /* Adjust the font size for mobile screens */
+  }
+
+  .navbar-nav {
+    justify-content: flex-start;
+    /* Align nav items to the start on mobile */
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+    /* Adjust padding for mobile screens */
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    /* Adjust the font size for mobile screens */
+  }
+
+  .list-unstyled li,
+  .timeline li {
+    font-size: 0.9rem;
+    /* Adjust the font size for mobile screens */
+    padding: 6px;
+    /* Adjust padding for mobile screens */
+  }
+  .date-heading {
+    font-size: 1.5rem; /* Adjust the font size for mobile screens */
+    padding: 6px 12px; /* Adjust padding for mobile screens */
   }
 }
