@@ -374,20 +374,30 @@ h2 {
 }
 
 .date-heading {
-  font-family: 'Great Vibes', cursive; /* Match the wedding theme font */
-  font-size: 2.5rem; /* Increase the font size */
-  color: #ffd700; /* Gold color for emphasis */
-  background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
-  padding: 10px 20px; /* Padding for breathing room */
-  border-radius: 10px; /* Rounded corners */
-  border: 2px solid #ffd700; /* Gold border for emphasis */
-  display: inline-block; /* Inline block for better alignment */
-  margin-bottom: 1.5rem; /* Adjust bottom margin */
+  font-family: 'Great Vibes', cursive;
+  /* Match the wedding theme font */
+  font-size: 2.5rem;
+  /* Increase the font size */
+  color: #ffd700;
+  /* Gold color for emphasis */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Subtle background color */
+  padding: 10px 20px;
+  /* Padding for breathing room */
+  border-radius: 10px;
+  /* Rounded corners */
+  border: 2px solid #ffd700;
+  /* Gold border for emphasis */
+  display: inline-block;
+  /* Inline block for better alignment */
+  margin-bottom: 1.5rem;
+  /* Adjust bottom margin */
 }
 
 /* Center align the date-heading */
 .date-heading-container {
-  text-align: center; /* Center align the text */
+  text-align: center;
+  /* Center align the text */
 }
 
 /* Loader */
@@ -474,6 +484,11 @@ h2 {
     /* Adjust the font size for smaller screens */
   }
 
+  .navbar {
+    padding: 0.5rem 1rem;
+    /* Adjust padding for smaller screens */
+  }
+
   .card-title {
     font-size: 1.5rem;
     /* Adjust the font size for smaller screens */
@@ -489,20 +504,30 @@ h2 {
   }
 
   .date-heading {
-    font-family: 'Great Vibes', cursive; /* Match the wedding theme font */
-    font-size: 2.5rem; /* Increase the font size */
-    color: #ffd700; /* Gold color for emphasis */
-    background-color: rgba(255, 255, 255, 0.1); /* Subtle background color */
-    padding: 10px 20px; /* Padding for breathing room */
-    border-radius: 10px; /* Rounded corners */
-    border: 2px solid #ffd700; /* Gold border for emphasis */
-    display: inline-block; /* Inline block for better alignment */
-    margin-bottom: 1.5rem; /* Adjust bottom margin */
+    font-family: 'Great Vibes', cursive;
+    /* Match the wedding theme font */
+    font-size: 2.5rem;
+    /* Increase the font size */
+    color: #ffd700;
+    /* Gold color for emphasis */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Subtle background color */
+    padding: 10px 20px;
+    /* Padding for breathing room */
+    border-radius: 10px;
+    /* Rounded corners */
+    border: 2px solid #ffd700;
+    /* Gold border for emphasis */
+    display: inline-block;
+    /* Inline block for better alignment */
+    margin-bottom: 1.5rem;
+    /* Adjust bottom margin */
   }
-  
+
   /* Center align the date-heading */
   .date-heading-container {
-    text-align: center; /* Center align the text */
+    text-align: center;
+    /* Center align the text */
   }
 }
 
@@ -566,6 +591,7 @@ h2 {
     padding: 6px 12px;
   }
 
+  /* Custom Navbar Styles */
   .navbar-brand {
     font-size: 1.2rem;
     /* Adjust the font size for mobile screens */
@@ -598,8 +624,11 @@ h2 {
     padding: 6px;
     /* Adjust padding for mobile screens */
   }
+
   .date-heading {
-    font-size: 1.5rem; /* Adjust the font size for mobile screens */
-    padding: 6px 12px; /* Adjust padding for mobile screens */
+    font-size: 1.5rem;
+    /* Adjust the font size for mobile screens */
+    padding: 6px 12px;
+    /* Adjust padding for mobile screens */
   }
 }
