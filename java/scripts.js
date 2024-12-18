@@ -59,26 +59,6 @@ window.addEventListener('load', function () {
   }
 });
 
-document.querySelectorAll('.nav-link').forEach(link => {
-  link.addEventListener('click', function () {
-    localStorage.setItem('scrollPosition', window.scrollY);
-  });
-});
-
-window.addEventListener('load', function () {
-  if (localStorage.getItem('scrollPosition') !== null) {
-    window.scrollTo(0, parseInt(localStorage.getItem('scrollPosition')));
-    localStorage.removeItem('scrollPosition');
-  }
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-  var navbarToggler = document.querySelector('.navbar-toggler');
-  var navbarCollapse = document.querySelector('#navbarNav');
-
-  navbarToggler.addEventListener('click', function () {
-    navbarCollapse.classList.toggle('show');
-  });
 
   // Set the date we're counting down to
   var countDownDate = new Date("Jan 18, 2025 13:30:00").getTime();
