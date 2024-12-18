@@ -28,51 +28,6 @@ p {
   /* Improved line height for readability */
 }
 
-label {
-  display: block;
-  margin: 10px 0 5px;
-  font-weight: bold;
-}
-
-input,
-select,
-button {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.hero {
-  background: url('https://Ljtol05.github.io/Wedding-Website-RSVP/images/wedding.jpeg') center/cover no-repeat fixed;
-  height: 100vh;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.hero h1 {
-  font-size: 6rem;
-  font-family: 'Great Vibes', cursive;
-  margin-bottom: 0.5rem;
-}
-
-.hero h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  color: #ffffff;
-  margin-top: 0.5rem;
-}
-
-.hero .lead span {
-  font-style: italic;
-}
-
 h2 {
   font-family: 'Playfair Display', serif;
   /* Example font family */
@@ -92,10 +47,80 @@ h2 {
   /* Rounded corners */
 }
 
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  background: url('https://Ljtol05.github.io/Wedding-Website-RSVP/images/wedding.jpeg') center/cover no-repeat fixed;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+.hero>div {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 6rem;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Subtle text shadow */
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #ffd700;
+  /* Gold color for emphasis */
+  margin-top: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Subtle text shadow */
+}
+
+.hero .lead span {
+  font-style: italic;
+}
+
 .decorative-hr {
   border: 0;
   height: 2px;
-  background: linear-gradient(to right, transparent, #fff, transparent);
+  background: linear-gradient(to right, transparent, #ffd700, transparent);
   margin: 1.5rem 0;
   width: 80%;
 }
@@ -431,6 +456,11 @@ h2 {
     font-size: 1.5rem;
   }
 
+  .decorative-hr {
+    width: 90%;
+  }
+
+
   .lead {
     font-size: 1.2rem;
   }
@@ -546,6 +576,10 @@ h2 {
 
   .hero h2 {
     font-size: 1.2rem;
+  }
+
+  .decorative-hr {
+    width: 95%;
   }
 
   .lead {
