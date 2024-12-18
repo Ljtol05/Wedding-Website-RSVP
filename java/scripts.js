@@ -45,7 +45,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       behavior: 'smooth'
     });
   });
-});
 
 // Preserve Scroll Position on Reload
 window.addEventListener('beforeunload', function () {
